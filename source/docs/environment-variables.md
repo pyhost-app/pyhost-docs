@@ -11,4 +11,6 @@ An integral part of deployment is the ability to store sensitive values outside 
 
 > Your site may require a restart in order for it to be picked up but you can do this through the settings tab on the server page and clicking 'Restart all Server Processes'.
 
+In order to edit an environment varibale you will need to delete the variable and then re-add it.
+
 ![environment variable form](/assets/img/env-var-form.png)
