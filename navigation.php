@@ -17,6 +17,7 @@ return [
         ]
     ],
     'DNS Management' => 'docs/dns',
+    'DNS Management' => 'docs/security',
     'Deployments' => 'docs/deployments',
     // 'Navigation' => 'docs/navigation',
     // 'Algolia DocSearch' => 'docs/algolia-docsearch',
