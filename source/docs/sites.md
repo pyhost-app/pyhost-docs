@@ -7,7 +7,7 @@ section: content
 
 # Sites
 
-Much like when you're not using PyHost to host a site, a server can have as many sites on it as you like (or the server can handle). This means that once you have one server and then deploying 4 or 5 sites to it and managing them all through PyHost is both possible and simple. 
+Much like when you're not using PyHost to host a site, a server can have as many sites on it as you like (or the server can handle). This means that once you have one server then deploying 4 or 5 sites to it and managing them all through PyHost not only possible but simple. 
 
 ## Creating a Site
 When you want to create a site you'll be faced with this form.
