@@ -14,17 +14,30 @@ When you want to create a site you'll be faced with this form.
 
 ![site create form](/assets/img/site-create.png)
 
-In order to create a site you will need to fill in the form on the main [server page](https://app.pyhost.io/servers). The form takes 4 pieces of information:
+In order to create a site you will need to fill in the form on the main [server page](https://app.pyhost.io/servers). There are two different routes you can take and the form takes 4 pieces of information:
 
-1. The domain of your new site e.g. `testsite.com`. It is important that this domain does not contain `http(s)://` and PyHost will not allow it.
-   
-2. The name of your Git repository. This will consist of your git host username or organisation, then a slash, then a repository name. For example, if I want to connect a repo which is found at the URL: https://github.com/pyhost-app/new-django-app then the repo name would be `pyhost-app/new-django-app`.
-   
-3. The name of the branch which you want to deploy from, e.g. `master`.
-   
-4. Whether your site uses PipEnv or not. If in doubt then leave this as the default `no`. If your site does use it, then be sure to set this to `yes` as this affects how your site installs dependencies.
+#### Domain
 
-Once you've filled out the form correctly you'll be taken to the site page!
+##### As a subdomain of PyHost
+
+If you **do not** have a domain ready for your site then you can use a Pyhost subdomain. If select the "I want to use a subdomain" option then you will only need to enter the URL prefix of the domain. If, for example, you enter `my-new-site` into the box then your site will be deployed at `http://my-new-site.pyhost.io`. One limitation is that you won't be able to have an SSL certificate for the site, but this will change in future.
+
+##### With your own custom domain
+
+If you have a custom domain that you want to use for your new site then you can enter it in the box with the "I already have a domain" option selected. domain of your new site e.g. `testsite.com`. It is important that this domain does not contain `http(s)://` and PyHost will not allow it.
+   
+#### Git Repository
+
+The name of your Git repository. This will consist of your git host username or organisation, then a slash, then a repository name. For example, if I want to connect a repo which is found at the URL: https://github.com/pyhost-app/new-django-app then the repo name would be `pyhost-app/new-django-app`.
+   
+#### Name of the branch you wish to deploy
+The name of the branch which you want to deploy from, e.g. `master`.
+   
+#### Other Information
+
+Whether your site uses PipEnv or not. If in doubt then leave this as the default `no`. If your site does use it, then be sure to set this to `yes` as this affects how your site installs dependencies.
+
+> Once you've filled out the form correctly you'll be taken to the site page!
 
 ## The Site Page
 This is where you can initialize your new site and make PyHost run the set up for your site and make the changes on your server. Then, after that is complete you can use this page for a whole host of other actions which help ease the management of your new site.
