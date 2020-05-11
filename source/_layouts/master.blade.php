@@ -10,8 +10,12 @@
         <meta property="og:title" content="{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}"/>
         <meta property="og:description" content="{{ $page->description ?? $page->siteDescription }}"/>
         <meta property="og:url" content="{{ $page->getUrl() }}"/>
-        <meta property="og:image" content="/assets/img/logo.png"/>
         <meta property="og:type" content="website"/>
+
+        <meta property="og:image" content="https://pyhost.io/images/logo-bg.jpg"/>
+        <meta name="twitter:title" content="{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}" />
+        <meta name="twitter:image" content="https://pyhost.io/images/logo-bg.jpg" />
+        <meta name="twitter:url" content="{{ $page->getUrl() }}" />
 
         <meta name="twitter:image:alt" content="{{ $page->siteName }}">
         <meta name="twitter:card" content="summary_large_image">

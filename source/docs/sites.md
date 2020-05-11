@@ -14,17 +14,17 @@ When you want to create a site you'll be faced with this form.
 
 ![site create form](/assets/img/site-create.png)
 
-In order to create a site you will need to fill in the form on the main [server page](https://app.pyhost.io/servers). There are two different routes you can take and the form takes 4 pieces of information:
+In order to create a site, you will need to fill in the form on the main [server page](https://app.pyhost.io/servers). There are two different routes you can take and the form takes 4 pieces of information:
 
 #### Domain
 
 ##### As a subdomain of PyHost
 
-If you **do not** have a domain ready for your site then you can use a Pyhost subdomain. If select the "I want to use a subdomain" option then you will only need to enter the URL prefix of the domain. If, for example, you enter `my-new-site` into the box then your site will be deployed at `http://my-new-site.pyhost.io`. One limitation is that you won't be able to have an SSL certificate for the site, but this will change in future.
+If you **do not** have a domain ready for your site then you can use a Pyhost subdomain. If select the "I want to use a subdomain" option then you will only need to enter the URL prefix of the domain. If, for example, you enter `my-new-site` into the box then your site will be deployed at `http://my-new-site.pyhost.io`. One limitation is that you won't be able to have an SSL certificate for the site, but this will change in the future.
 
-##### With your own custom domain
+##### With a custom domain
 
-If you have a custom domain that you want to use for your new site then you can enter it in the box with the "I already have a domain" option selected. domain of your new site e.g. `testsite.com`. It is important that this domain does not contain `http(s)://` and PyHost will not allow it.
+If you have a custom domain that you want to use for your new site then you can enter it in the box with the "I already have a domain" option selected. The domain of your new site e.g. `testsite.com`. This domain mustn't contain `http(s)://` and PyHost will not allow it.
    
 #### Git Repository
 

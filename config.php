@@ -4,7 +4,7 @@ return [
     'baseUrl' => 'http://localhost:3000/',
     'production' => false,
     'siteName' => 'PyHost Docs',
-    'siteDescription' => 'Your Guide to PyHost and Servers',
+    'siteDescription' => 'Your Guide to PyHost, the server provisioning tool for Django developers which helps them take a site from local to live in 15 minutes or less.',
 
     // Algolia DocSearch credentials
     'docsearchApiKey' => '',
