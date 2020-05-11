@@ -6,7 +6,7 @@
         <div>
             <h1 id="intro-docs-template">{{ $page->siteName }}</h1>
 
-            <h2 id="intro-powered-by-jigsaw" class="font-light mt-4">{{ $page->siteDescription }}</h2>
+            <h2 id="intro-powered-by-jigsaw" class="font-light mt-4">Your guide to PyHost</h2>
 
             <p class="text-lg">Deploy Django sites on your own server <br class="hidden sm:block"> without touching the command line</p>
 
