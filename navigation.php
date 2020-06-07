@@ -19,6 +19,7 @@ return [
     'DNS Management' => 'docs/dns',
     'DNS Management' => 'docs/security',
     'Deployments' => 'docs/deployments',
+    'Advanced' => 'docs/advanced',
     // 'Navigation' => 'docs/navigation',
     // 'Algolia DocSearch' => 'docs/algolia-docsearch',
     // 'Custom 404 Page' => 'docs/custom-404-page',
